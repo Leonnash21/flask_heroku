@@ -4,10 +4,18 @@ env
 .Python
 include
 lib
+Libs
 
 # Python Packages
 *.egg
 *.egg-info
+*.txt
+*.in
+*.dll
+*.rst
+*.cfg
+setup.py
+PKG-INFO
 bin
 build
 dist
@@ -18,6 +26,19 @@ parts
 var
 develop-eggs
 .installed.cfg
+_pycache_
+DLLs
+Doc
+docs
+scripts
+static
+tcl
+templates
+tests
+Tools
+virtualenv_embedded
+virtualenv_support
+
 
 # Pip Installer Log
 pip-log.txt
